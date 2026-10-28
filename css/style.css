@@ -49,7 +49,7 @@ h2 { font-size: clamp(40px, 5.4vw, 86px); letter-spacing: -.01em; }
 .sl.r::after { background: linear-gradient(270deg, #14110f 0%, #14110f00 70%); }
 .slats::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(105deg, #fff0 42%, #fff8 50%, #fff0 58%) no-repeat; background-size: 260% 100%; background-position: 160% 0; mix-blend-mode: soft-light; animation: sheen 8s cubic-bezier(.6, 0, .3, 1) 2.4s infinite; }
 @keyframes sheen { 0% { background-position: 160% 0; } 55%, 100% { background-position: -60% 0; } }
-.word { position: absolute; z-index: 2; left: clamp(10px, 3.4vw, 56px); top: clamp(70px, 10vh, 104px); margin: 0; font: italic 400 clamp(84px, 17.5vw, 300px)/.82 var(--f-d); letter-spacing: -.035em; color: var(--ivory); mix-blend-mode: difference; white-space: nowrap; pointer-events: none; }
+.word { position: absolute; z-index: 2; left: clamp(10px, 3.4vw, 56px); top: clamp(70px, 10vh, 104px); margin: 0; font: italic 400 clamp(84px, 17.5vw, 300px)/.82 var(--f-d); letter-spacing: -.035em; color: var(--ivory); text-shadow: 0 10px 50px #14110f99, 0 2px 4px #14110f66; white-space: nowrap; pointer-events: none; }
 .word span { display: inline-block; }
 .hero-in { position: relative; z-index: 3; max-width: min(40vw, 540px); }
 .eyebrow { margin: 0 0 18px; font: 600 11px/1.4 var(--f-b); letter-spacing: .3em; text-transform: uppercase; color: var(--sand); }
